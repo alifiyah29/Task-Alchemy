@@ -14,7 +14,9 @@ const Inner = ({ children }) => {
       className="container"
       data-theme={darkTheme ? "dark" : "light"}
     >
-      <Header layoutVersion={layoutVersion} />
+      <Header
+        layoutVersion={layoutVersion}
+      />
       {children}
       <br />
       <Footer />

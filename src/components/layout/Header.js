@@ -1,7 +1,7 @@
 import { withTheme } from "../hoc/withTheme";
 
-
-const Header = ({layoutVersion, darkTheme, toggleTheme }) => {
+const Header = ({ layoutVersion, darkTheme, toggleTheme }) => {
+  console.log({ toggleTheme });
 
   return (
     <header>
